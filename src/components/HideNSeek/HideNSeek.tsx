@@ -1,5 +1,6 @@
 import React from 'react'
 import "./HideNSeek.css"
+import Toast from './Toast'
 
 export default function HideNSeek() {
   return (
@@ -46,6 +47,7 @@ export default function HideNSeek() {
       </article>
 
       {/* <Toasty /> */}
+      {<Toast/>}
 
       {/* <a href="https://www.lipsum.com/">Read more on Lipsum.com</a> */}
     </main>
