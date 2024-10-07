@@ -23,6 +23,7 @@ export default function HideNSeek() {
           Ipsum.
         </p>
         <h2>Where does it come from?</h2>
+        
         <p>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC, making it
@@ -45,9 +46,8 @@ export default function HideNSeek() {
           by H. Rackham.
         </p>
       </article>
-
+      <Toast/>
       {/* <Toasty /> */}
-      {<Toast/>}
 
       {/* <a href="https://www.lipsum.com/">Read more on Lipsum.com</a> */}
     </main>
