@@ -1,12 +1,15 @@
 // import { useState } from "react";
 import "./App.css";
-import HideNSeek from "./components/HideNSeek/HideNSeek";
+import ToggleContainer from "./components/Toggle/ToggleContainer";
+// import PreviewCard from "./components/PreviewCard/PreviewCard";
+// PreviewCard
+
 
 function App() {
 
   return (
     <>
-      <HideNSeek />
+      <ToggleContainer />
     </>
   );
 }

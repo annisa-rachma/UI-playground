@@ -1,0 +1,13 @@
+.container {
+  width: 600px;
+  height: 500px;
+  border: 1px solid black ;
+  border-radius: 12px;
+  /* overflow: scroll; */
+  padding: 20px;
+  position: relative;
+  display: flex;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  /* box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19) */
+}
