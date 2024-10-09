@@ -1,8 +1,8 @@
 import React from 'react'
-import "./HideNSeek.css"
+import "./PreviewCard.css"
 import Toast from './Toast'
 
-export default function HideNSeek() {
+export default function PreviewCard() {
   return (
     <div className='container'>
       <main>

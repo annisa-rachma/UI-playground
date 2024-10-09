@@ -1,12 +1,12 @@
 // import { useState } from "react";
 import "./App.css";
-import HideNSeek from "./components/HideNSeek/HideNSeek";
-
+import PreviewCard from "./components/PreviewCard/PreviewCard";
+PreviewCard
 function App() {
 
   return (
     <>
-      <HideNSeek />
+      <PreviewCard />
     </>
   );
 }
