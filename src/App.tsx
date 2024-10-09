@@ -1,12 +1,15 @@
 // import { useState } from "react";
 import "./App.css";
-import PreviewCard from "./components/PreviewCard/PreviewCard";
-PreviewCard
+import ToggleContainer from "./components/Toggle/ToggleContainer";
+// import PreviewCard from "./components/PreviewCard/PreviewCard";
+// PreviewCard
+
+
 function App() {
 
   return (
     <>
-      <PreviewCard />
+      <ToggleContainer />
     </>
   );
 }
