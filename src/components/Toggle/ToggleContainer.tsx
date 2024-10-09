@@ -1,5 +1,5 @@
 import React from "react";
-import "./ToggleContainer.css";
+import styles from "./ToggleContainer.module.css";
 import Toggle from "./Toggle";
 
 
@@ -8,13 +8,13 @@ export default function ToggleContainer() {
 
   return (
     <div
-      className="container"
+      className={styles.container} 
       style={{
         "--color-bg": isDarkMode ? "black" : "white",
         "--color-text": isDarkMode ? "white" : "black",
       } as React.CSSProperties } 
     >
-      <Toggle />
+      <Toggle label={isDarkMode ? 'Dark Mode' : 'Light Mode'}  checked={isDarkMode} handleToggle={setIsDarkMode} />
     </div>
   );
 }
